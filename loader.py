@@ -4,3 +4,5 @@ from config import TOKEN
 
 bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
+
+dp.include_router(my_router)
